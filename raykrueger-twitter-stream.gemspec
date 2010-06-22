@@ -4,10 +4,10 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{twitter-stream}
-  s.version = "0.1.6.rk"
+  s.name = %q{raykrueger-twitter-stream}
+  s.version = "0.1.6"
 
-  s.required_rubygems_version = Gem::Requirement.new("> 1.3.1") if s.respond_to? :required_rubygems_version=
+  s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Vladimir Kolesnikov"]
   s.date = %q{2010-06-22}
   s.description = %q{Simple Ruby client library for twitter streaming API. Uses EventMachine for connection handling. Adheres to twitter's reconnection guidline. JSON format only.}
@@ -24,9 +24,9 @@ Gem::Specification.new do |s|
      "fixtures/twitter/basic_http.txt",
      "lib/twitter/buftok.rb",
      "lib/twitter/json_stream.rb",
+     "raykrueger-twitter-stream.gemspec",
      "spec/spec_helper.rb",
-     "spec/twitter/json_stream.rb",
-     "twitter-stream.gemspec"
+     "spec/twitter/json_stream.rb"
   ]
   s.homepage = %q{http://github.com/voloko/twitter-stream}
   s.rdoc_options = ["--charset=UTF-8"]

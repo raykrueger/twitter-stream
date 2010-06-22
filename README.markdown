@@ -1,9 +1,7 @@
 # twitter-stream
 
-Simple Ruby client library for [twitter streaming API](http://apiwiki.twitter.com/Streaming-API-Documentation). 
-Uses [EventMachine](http://rubyeventmachine.com/) for connection handling. Adheres to twitter's [reconnection guidline](http://apiwiki.twitter.com/Streaming-API-Documentation#Connecting).
-
-JSON format only.
+    You do not want to use my version of this library; go use the original. 
+    This is a hacked up version, forced to use an older eventmachine version that we're stuck on.
 
 ## Install
 
