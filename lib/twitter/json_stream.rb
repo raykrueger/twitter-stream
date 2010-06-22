@@ -1,5 +1,4 @@
 require 'eventmachine'
-require 'em/buftok'
 require 'uri'
 
 module Twitter
